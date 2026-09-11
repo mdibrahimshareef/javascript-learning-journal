@@ -1,0 +1,47 @@
+function confirmEnding(str, target) {
+  // Step 1: Find out how long the target ending is.
+  // Example: If target is "on", its length is 2.
+  let targetLength = target.length;
+
+  // Step 2: Grab the end part of the sentence using .slice().
+  // When you pass a negative number to .slice(), JavaScript starts
+  // counting backwards from the end of the text instead of the front.
+  // Example: str.slice(-2) takes the last 2 characters of the string.
+  let endingPart = str.slice(-targetLength);
+
+  // Step 3: Compare our sliced piece with the target word.
+  // If they match perfectly, return true.
+  if (endingPart === target) {
+    return true;
+  } else {
+    // If they don't match, return false.
+    return false;
+  }
+}
+
+// ==========================================
+// Test Cases
+
+// "Bastian" ends with "n" -> true
+console.log(confirmEnding("Bastian", "n")); 
+
+// "Congratulation" ends with "on" -> true
+console.log(confirmEnding("Congratulation", "on")); 
+
+// "Connor" ends with "r", not "n" -> false
+console.log(confirmEnding("Connor", "n")); 
+
+// Sentence ends with "frozen", not "specification" -> false
+console.log(confirmEnding("Walking on water and developing software from a specification are easy if both are frozen", "specification")); 
+
+// Sentence ends with "name" -> true
+console.log(confirmEnding("He has to give me a new name", "name")); 
+
+// "Open sesame" ends with "same" -> true
+console.log(confirmEnding("Open sesame", "same")); 
+
+// "Open sesame" ends with "same", not "sage" -> false
+console.log(confirmEnding("Open sesame", "sage")); 
+
+// "Abstraction" ends with "action" -> true
+console.log(confirmEnding("Abstraction", "action"));
