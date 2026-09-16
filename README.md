@@ -2,7 +2,7 @@ JavaScript Learning Journal
 
 This repository documents my ongoing JavaScript practice and learning journey as I build a strong foundation for frontend development.
 
-🎯 Purpose
+1. Purpose
 
 - Track my JavaScript learning progress
 - Organize practice by concept
@@ -10,7 +10,7 @@ This repository documents my ongoing JavaScript practice and learning journey as
 - Apply concepts through small projects
 - Record lessons, challenges, and improvements
 
-📚 What’s Inside
+2. What’s Inside
 
 JavaScript Concepts
 
@@ -31,11 +31,11 @@ Practice and examples organized by topic, including:
 - Fetch API
 - JavaScript modules
 
-🧪 Exercises & Challenges
+3. Exercises & Challenges
 
 Solutions and practice from learning platforms such as freeCodeCamp, along with my own examples and experiments.
 
-🚀 Mini Projects
+4. Mini Projects
 
 Small applications built to apply multiple JavaScript concepts, such as:
 
@@ -45,7 +45,7 @@ Small applications built to apply multiple JavaScript concepts, such as:
 - API-based applications
 - Other JavaScript experiments
 
-📝 Notes
+5. Notes
 
 Short notes covering:
 
@@ -54,7 +54,7 @@ Short notes covering:
 - Common mistakes
 - Things I learned while solving problems
 
-🧠 Learning Approach
+6. Learning Approach
 
 For each major concept, I aim to:
 
@@ -65,7 +65,7 @@ For each major concept, I aim to:
 5. Apply the concept in projects.
 6. Refactor and improve my code as my understanding grows.
 
-🛠 Tech Stack
+7. Tech Stack
 
 - JavaScript (ES6+)
 - HTML
@@ -73,7 +73,7 @@ For each major concept, I aim to:
 - Git
 - GitHub
 
-🎯 Goals
+8. Goals
 
 - Build strong core JavaScript fundamentals
 - Develop practical problem-solving skills
