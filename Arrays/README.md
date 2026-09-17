@@ -20,6 +20,11 @@ A fun utility program that selects a random item from a list of options.
 A logic-based program that translates numeric golf scores (strokes and par) into standard golf terminology (e.g., "Birdie", "Bogey", "Hole-in-one!").
 * **Concepts:** Complex control flow, `if / else if / else` conditional chains, strict equality operators, and managing multiple execution paths.
 
+### 4. Personal Reading Tracker
+**File:** `readingTracker.js`
+A digital bookshelf utility that organizes and queries a collection of books based on genre, read status, and user ratings. 
+* **Concepts:** Method chaining, non-destructive array manipulation.
+* **Array Methods:** Utilized `.map()` to extract specific properties into a new array, `.filter()` to isolate specific genres, and `.sort()` to arrange objects dynamically based on numeric values.
 ---
 
 ### How to Run
