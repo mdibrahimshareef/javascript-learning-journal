@@ -1,5 +1,5 @@
 ## Booleans and Numbers
-### This section explores core JavaScript data types, focusing on mathematical precision, type coercion, and logic gates.###
+### This section explores core JavaScript data types, focusing on mathematical precision, type coercion, and logic gates.
 
 ### 01. Magic Fortune Teller
 
