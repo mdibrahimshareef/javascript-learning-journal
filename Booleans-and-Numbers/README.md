@@ -3,7 +3,7 @@
 
 ### 01. Magic Fortune Teller
 
-File: fortune-teller.js
+File: `fortune-teller.js`
 A fun, interactive script that generates random fortunes and predictions. This project acts as a digital "Magic 8-Ball," demonstrating how to handle randomization and conditional logic to produce varied outputs.
 
 **Concepts Covered:**
@@ -13,6 +13,8 @@ A fun, interactive script that generates random fortunes and predictions. This p
 * **Boolean Evaluation:** Checking conditions (like whether a generated number is even or odd using the `%` modulo operator) to trigger different types of fortunes.
 
 ### 02 - Digital Wallet & Transaction Validator
+
+File: `wallet-validator.js`
 A simulation of a digital wallet that validates withdrawal requests, handles floating-point math, and uses boolean flags to authorize transactions.
 **Concepts Covered:**
 * **Number Parsing:** Using `parseFloat()` to convert string inputs into usable numbers.
