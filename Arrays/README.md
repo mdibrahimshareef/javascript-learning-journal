@@ -26,6 +26,20 @@ A digital bookshelf utility that organizes and queries a collection of books bas
 * **Concepts:** Method chaining, non-destructive array manipulation.
 * **Array Methods:** Utilized `.map()` to extract specific properties into a new array, `.filter()` to isolate specific genres, and `.sort()` to arrange objects dynamically based on numeric values.
 ---
+### 5. Movie watchlist. 
+**File:** `movie-watchlist.js`
+**Concepts Covered:**
+* Creating arrays of objects
+* `push()`: Adding new elements to an array.
+* `filter()`: Extracting items based on specific conditions (e.g., finding unwatched movies).
+* `map()`: Transforming data (e.g., extracting just the titles from the movie objects).
+* `forEach()`: Iterating over an array to execute a function for every item.
+
+### 6. Smart Inventory Manager
+**File:** `inventory-manager.js`
+A utility script that monitors product stock levels and manages inventory data by validating entries and safely mutating the stock list.
+Concepts: Advanced array validation, finding exact data points, and targeted array mutation.
+Array Methods: Used .some() to detect critical stock shortages, .every() to ensure data integrity across all objects, .findIndex() to locate specific items, and .splice() to remove discontinued products.
 
 ### How to Run
 
