@@ -15,7 +15,14 @@ A utility program that processes shipping cargo manifests by validating complex 
   * **Dynamic Object Checking:** Using `Object.keys()` to determine if an object is empty.
 
 ---
+### 2. Smart Home Device Configurator
+**File:** `smartHomeConfig.js`
 
+A configuration utility that creates, updates, and summarizes smart home devices. This project demonstrates how to safely manipulate deeply nested data structures.
+* **Concepts Demonstrated:** 
+  * **Nested Objects:** Structuring complex data with objects inside of objects.
+  * **Object Destructuring:** Unpacking nested properties into distinct variables for cleaner, more readable code.
+  * **Advanced Spread Operator:** Using `...` at multiple levels to merge updates into nested objects without mutating the original dataset.
 ### How to Run
 
 To run this file locally and see the terminal output, use Node.js in your terminal:
