@@ -23,6 +23,16 @@ A configuration utility that creates, updates, and summarizes smart home devices
   * **Nested Objects:** Structuring complex data with objects inside of objects.
   * **Object Destructuring:** Unpacking nested properties into distinct variables for cleaner, more readable code.
   * **Advanced Spread Operator:** Using `...` at multiple levels to merge updates into nested objects without mutating the original dataset.
+    
+---
+### 3. Company Payroll Analyzer
+**File:** `payrollAnalyzer.js`
+
+A data analysis utility that dynamically iterates through company department budgets to calculate totals and find the highest expenditures.
+* **Concepts Demonstrated:** 
+  * **Dynamic Object Iteration:** Processing object data without hardcoding specific property names.
+  * **Static Object Methods:** Utilizing `Object.keys()` to extract property names, `Object.values()` to extract pure data for calculations, and `Object.entries()` to evaluate keys and values simultaneously.
+  * **Array/Object Destructuring:** Unpacking `[key, value]` pairs inside a `for...of` loop for highly readable data evaluation.
 ### How to Run
 
 To run this file locally and see the terminal output, use Node.js in your terminal:
