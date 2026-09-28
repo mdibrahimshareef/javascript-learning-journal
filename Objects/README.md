@@ -1,6 +1,8 @@
-# JavaScript Objects
+# JavaScript Objects Learning Journal
 
+Welcome to the Objects section of my JavaScript Learning Journal. This folder contains hands-on projects and labs where I practice creating, validating, and manipulating JavaScript objects without mutating original data.
 
+## Projects in this Directory
 
 ### 1. Cargo Manifest Validator
 **File:** `cargoManifestValidator.js`
