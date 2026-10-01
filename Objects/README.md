@@ -33,6 +33,16 @@ A data analysis utility that dynamically iterates through company department bud
   * **Dynamic Object Iteration:** Processing object data without hardcoding specific property names.
   * **Static Object Methods:** Utilizing `Object.keys()` to extract property names, `Object.values()` to extract pure data for calculations, and `Object.entries()` to evaluate keys and values simultaneously.
   * **Array/Object Destructuring:** Unpacking `[key, value]` pairs inside a `for...of` loop for highly readable data evaluation.
+ 
+ ---
+ ### 4. Bank Account Manager
+**File:** `bankAccountManager.js`
+
+An interactive object demonstrating state management by combining data properties and behavior methods within a single structure.
+* **Concepts Demonstrated:** 
+  * **Object Methods:** Attaching functions directly to objects to create encapsulated behaviors.
+  * **The `this` Keyword:** Utilizing `this` to access and modify an object's internal state dynamically.
+  * **Data Encapsulation:** Grouping related data (balance, history) and the rules for modifying that data (deposit, withdraw) into one cohesive unit.
 ### How to Run
 
 To run this file locally and see the terminal output, use Node.js in your terminal:
