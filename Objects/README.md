@@ -43,6 +43,16 @@ An interactive object demonstrating state management by combining data propertie
   * **Object Methods:** Attaching functions directly to objects to create encapsulated behaviors.
   * **The `this` Keyword:** Utilizing `this` to access and modify an object's internal state dynamically.
   * **Data Encapsulation:** Grouping related data (balance, history) and the rules for modifying that data (deposit, withdraw) into one cohesive unit.
+ 
+ ---
+ ### 5. RPG Character Factory
+**File:** `rpgCharacterFactory.js`
+
+An object generator that dynamically creates independent game characters. This project demonstrates how to instantiate multiple objects with identical structures but unique states, while protecting sensitive core data.
+* **Concepts Demonstrated:** 
+  * **Factory Functions:** Utilizing a function to dynamically construct and return newly formatted objects, simulating basic class instantiation.
+  * **Object Immutability:** Implementing `Object.freeze()` to lock down specific nested data elements, preventing accidental mutation or intentional tampering.
+  * **Independent State Management:** Managing independent arrays (`inventory`) and primitive values (`health`) across multiple generated objects simultaneously.
 ### How to Run
 
 To run this file locally and see the terminal output, use Node.js in your terminal:
