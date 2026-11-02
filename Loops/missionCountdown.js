@@ -5,7 +5,7 @@ console.log("--- Initiating Launch Sequence ---");
 for (let i = 5; i > 0; i--) {
   console.log(`T-Minus: ${i}...`);
 }
-console.log("Liftoff! 🚀\n");
+console.log("Liftoff!");
 
 // 2. The 'while' loop: Best when repeating an action until a specific condition changes.
 console.log("--- Running System Checks ---");
