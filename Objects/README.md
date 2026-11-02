@@ -53,6 +53,19 @@ An object generator that dynamically creates independent game characters. This p
   * **Factory Functions:** Utilizing a function to dynamically construct and return newly formatted objects, simulating basic class instantiation.
   * **Object Immutability:** Implementing `Object.freeze()` to lock down specific nested data elements, preventing accidental mutation or intentional tampering.
   * **Independent State Management:** Managing independent arrays (`inventory`) and primitive values (`health`) across multiple generated objects simultaneously.
+ 
+---
+### 6. Artifact Provenance Auditor
+**File:** `artifactProvenanceAuditor.js`
+
+A museum collection tracking system simulating CRUD (Create, Read, Update, Delete) operations on a highly nested dataset. 
+* **Concepts Demonstrated:** 
+  * **Dictionary Lookups:** Utilizing unique keys for direct object targeting.
+  * **Nested State Mutation:** Modifying arrays and child objects buried inside parent objects.
+  * **Boolean Logic:** Using the `!` operator to create toggle switches for application state.
+  * **Data formatting:** Combining deeply nested properties into readable summaries using Template Literals.
+ 
+    
 ### How to Run
 
 To run this file locally and see the terminal output, use Node.js in your terminal:
