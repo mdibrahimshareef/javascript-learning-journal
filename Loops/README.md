@@ -2,6 +2,7 @@
 
 Welcome to the Loops section of my JavaScript Learning Journal. This folder contains hands-on projects demonstrating my ability to control program flow and iterate over data.
 
+---
 ### 1. Space Mission Countdown
 **File:** `missionCountdown.js`
 
@@ -10,3 +11,13 @@ A foundational script demonstrating the core differences between count-controlle
   * **`for` Loops:** Executing code a predetermined number of times using an initialization, condition, and increment/decrement expression.
   * **`while` Loops:** Executing code dynamically until a specific boolean state changes.
   * **State Management:** Using variables to safely exit loops and prevent infinite execution cycles.
+ 
+---
+### 2. Factorial Calculator
+**File:** `factorialCalculator.js`
+
+A mathematical utility that calculates the factorial of a given number using iterative loops. 
+* **Concepts Demonstrated:** 
+  * **`for` Loops:** Iterating over a sequence of numbers to perform cumulative calculations.
+  * **Function Parameters and Returns:** Passing data into a function and extracting the processed mathematical result.
+  * **Template Literals:** Dynamically interpolating variables into a cleanly formatted string output.
