@@ -64,7 +64,16 @@ A museum collection tracking system simulating CRUD (Create, Read, Update, Delet
   * **Nested State Mutation:** Modifying arrays and child objects buried inside parent objects.
   * **Boolean Logic:** Using the `!` operator to create toggle switches for application state.
   * **Data formatting:** Combining deeply nested properties into readable summaries using Template Literals.
- 
+
+ ---
+ ### 7. Smart Thermostat
+**File:** `smartThermostat.js`
+
+An object-oriented program demonstrating advanced data protection and validation using modern ES2022 class features.
+* **Concepts Demonstrated:** 
+  * **Private Properties (`#`):** Securing internal object state so it cannot be mutated or accessed directly from the global scope.
+  * **Getters:** Creating safe, read-only pathways to retrieve formatted internal data.
+  * **Setters:** Intercepting assignment operations to run strict validation logic before allowing state mutation.
     
 ### How to Run
 
